@@ -2,6 +2,68 @@
 
 本仓库提供 MATLAB/Simulink 曲线拟合与参数估计的示例脚本，用于解决常见的拟合问题。
 
+---
+
+## 🚀 如何上传您的代码和问题描述
+
+### 方法一：通过 GitHub 网页上传文件（推荐新手）
+
+1. 打开本仓库页面（`github.com/wangchaoyu123/111`）
+2. 点击页面右上角的 **"Add file"** 按钮 → 选择 **"Upload files"**
+3. 将您的文件拖拽到上传区域，支持以下格式：
+   - `.m` — MATLAB 脚本
+   - `.slx` / `.mdl` — Simulink 模型文件
+   - `.mat` — MATLAB 数据文件
+   - `.txt` / `.csv` — 原始数据或日志
+4. 在 **"Commit changes"** 区域填写简短说明（例如：`上传拟合模型`），然后点击 **"Commit changes"** 完成上传
+
+### 方法二：提交 Issue 描述问题
+
+1. 点击仓库顶部菜单中的 **"Issues"** 选项卡
+2. 点击右上角 **"New issue"**
+3. 按照以下模板填写（直接复制粘贴）：
+
+```
+## 问题描述
+（在此简述您遇到的问题，例如：拟合曲线与实测数据偏差过大）
+
+## MATLAB / Simulink 版本
+（例如：MATLAB R2022b，Simulink 10.6）
+
+## 复现步骤
+1. 打开模型 xxx.slx
+2. 运行仿真
+3. 观察到 ...
+
+## 错误信息
+（将 MATLAB 命令窗口中的红色报错文字粘贴到此处）
+
+## 期望结果
+（描述您希望得到的正确结果）
+```
+
+4. 如需附加截图，可直接将图片粘贴到 Issue 文本框中
+5. 点击 **"Submit new issue"** 提交
+
+### 方法三：通过 Git 命令上传（适合熟悉命令行的用户）
+
+```bash
+# 克隆仓库到本地
+git clone https://github.com/wangchaoyu123/111.git
+cd 111
+
+# 复制您的文件到仓库目录，然后提交
+git add your_model.slx your_script.m
+git commit -m "上传待诊断的 Simulink 模型"
+git push
+```
+
+---
+
+> **💡 提示**：上传代码后，GitHub Copilot Agent 会自动读取您的文件，直接修改并修复问题，结果以 Pull Request 的形式呈现，您只需点击 "Merge" 即可应用修复。
+
+---
+
 ## 文件说明
 
 | 文件 | 说明 |
